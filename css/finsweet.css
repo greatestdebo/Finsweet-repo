@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-section {
+    justify-content: space-between;
+    width: 70%;
+    border: 1px solid #fff;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-list {
+    margin-top: 10px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navigation-menu ul li {
+    color: black;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.navigation-menu ul li a {
+    text-decoration: none;
+    color: black;  
+}
+
+.RAS-number {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: black;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.RAS-number p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.RAS-section {
+    display: flex;
+}
+
+.RAS-section .grey-line {
+    margin-right: 20px;
+}
+.RAS-section img {
+    padding-right: 10px;
+}
+.RAS-section .RAS-logo {
+    height: 70%;
+    align-items: center;
+}
+
+
+
+/* BOOKING SECTION BELOW THE HEADER */
+.booking-section {
+    width: 70%;
+    height: 88vh;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.booking-section .text-booking {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+}
+
+.booking-section .text-booking .booking-header {
+    display: flex;
+    border: 5px solid #fff;
+    height: 50%;
+    width: 100%;
+    font-size: 250%;
+    padding-top: 30px;
+}
+.booking-section .text-booking .booking-text {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    height: 50%;
+    width: 100%;
+}
+.booking-section .text-booking .booking-text .bas-logo {
+    width: 100%;
+    height: 40%;
+}
+.booking-section .text-booking .booking-text .we-are-open {
+    display: flex;
+    flex-direction: row;
+}
+.booking-section .text-booking .booking-text .we-are-open img {
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.booking-section .picture-booking {
+    width: 50%;
+    background: url(../img/mechanic.png) no-repeat;
+    background-size:auto;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION 2 WORK */
+
+.section2-class {
+    width: 100%;
+    height: 100vh;
+    background-color: #E2E6E9;
+}
+
+.section2-class .section2-box {
+    width: 70%;
+    height: 85vh;
+    margin: auto;
+    border: 1px solid #E2E6E9;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.section2-class .section2-box .section2-LHS {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #E2E6E9;
+    margin-right: 3%;
+}
+
+.section2-class .section2-box .section2-LHS .we-are-taking h2 {
+    font-size: 360%;
+}
+.section2-class .section2-box .section2-LHS .we-are-taking ul {
+    list-style: none;
+}
+
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 {
+    width: 74%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 {
+    list-style: none;
+}
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box {
+    width: 16%;
+    padding: 0 10px 40px 0;
+}
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box img {
+    width: 100%;
+    
+}
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box h5 {
+    font-size: 150%;
+}
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box p {
+    font-size: 120%;
+}
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box a {
+    font-size: 130%;
+    color: black;
+    padding-right: 15px;
+    text-decoration: none;   
+}
+
+
+
+.section2-class .section2-box .section2-RHS {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #E2E6E9;
+    margin-left: 2%;
+}
+
+.section2-class .section2-box .section2-RHS .get-a-quote {
+    border: 1px solid #E2E6E9;
+    width: 100%;
+    height: 100%;
+}
+
+.section2-class .section2-box .section2-RHS .get-a-quote h2 {
+    padding-right: 100px;
+    font-size: 250%;
+    padding-bottom: 50px;
+
+}
+.section2-class .section2-box .section2-RHS .get-a-quote input {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 30px;
+    border: 2px solid #E2E6E9
+}
+.section2-class .section2-box .section2-RHS .get-a-quote img {
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION 3  PROCESS SECTION */
+.process-section {
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.process-section .section3-container {
+    width: 67%;
+    height: 65vh;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.process-section .section3-container .section3-LHS {
+    border: 1px solid #fff;
+    width: 60%;
+    height: 100%;
+}
+
+.process-section .section3-container .section3-LHS h2 {
+    font-size: 360%;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+.process-section .section3-container .section3-LHS p {
+    font-size: 110%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 200px;
+}
+.process-section .section3-container .section3-LHS img {
+    margin-top: 30px;
+}
+
+
+
+.process-section .section3-container .section3-RHS {
+    border: 1px solid #fff;
+    width: 40%;
+    height: 100%;
+}
+
+.process-section .section3-container .section3-RHS .RHS3-text h4 {
+    font-size: 200%;
+    padding: 10px 0 0 10px;
+}
+.process-section .section3-container .section3-RHS .RHS3-text p {
+    font-size: 120%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 30px 10px 10px;
+}
+
+.process-section .section3-container .section3-RHS .RHS3-image {
+    width: 20%;
+    text-align: center;
+    margin-right: 10px;
+}
+.process-section .section3-container .section3-RHS .RHS3-image img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.process-section .section3-container .section3-RHS .line-image img {
+    width: 2px;
+}
+.list-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+/* SECTION 4- WE OFFER FULL SERVICE */
+.we-offer {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #F2F2F2;
+}
+
+.we-offer h4 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 70px;
+}
+.we-offer h2 {
+    margin: 0 auto;
+    font-size: 360%;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.we-offer .offers {
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.we-offer .offers .offers-box {
+    background: #fff;
+    border: 3px solid #F2F2F2;
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 130%;
+}
+
+.we-offer .offers .offers-box-orange {
+    color: #fff;
+    background: #FF6433;
+    border: 3px solid #F2F2F2;
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 130%;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION 5 - GET IN TOUCH WITH US */
+
+.get-in-touch {
+    width: 100%;
+    height: 70vh;
+    background-color: #F2F2F2;
+}
+
+.get-in-touch .GIT-picture {
+    width: 100%;
+    height: 70%;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+}
+
+.get-in-touch .GIT-picture .car-rear {
+    width: 45%;
+    height: 100;
+    background: url(../img/car-rear.png) no-repeat;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.get-in-touch .GIT-picture .car-charger {
+    width: 45%;
+    height: 100;
+    background: url(../img/car-charger.png) no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+}
+
+
+.get-in-touch .GIT-contact {
+    position: absolute;
+    width: 40%;
+    height: 49%;
+    border: 1px solid #FF6433;
+    background-color: #FF6433;
+    margin-left: 250px;
+}
+
+.get-in-touch .GIT-contact .contact-text h2 {
+    font-size: 300%;
+    color: #fff;
+    padding: 70px 30px 30px 50px;
+}
+
+.get-in-touch .GIT-contact .contact-button {
+    padding-left: 50px;
+
+}
+
+
+.get-in-touch .GIT-numbers {
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.get-in-touch .GIT-numbers .GIT-number-figures {
+    width: 25%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #F2F2F2;
+    align-self: center;
+}
+
+.get-in-touch .GIT-numbers .GIT-number-figures h2 {
+    font-size: 300%;
+    font-family: sans-serif;
+    color: #661CE7;
+    padding: 20px 0 0 10px;
+}
+
+.get-in-touch .GIT-numbers .GIT-number-figures p {
+    font-size: 150%;
+    padding: 0 0 0 10px;
+    font-family: sans-serif;
+}
