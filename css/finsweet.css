@@ -467,3 +467,47 @@
     padding: 0 0 0 10px;
     font-family: sans-serif;
 }
+
+
+
+
+
+/* SECTION 6 - BRANDS WE SERVE */
+.brands {
+    margin: 0 auto;
+    width:100%;
+    height: 65vh;
+    background-color: #fff;
+}
+
+.brands .brands-text {
+    margin: 0 auto;
+    width: 23%;
+    height: 15%;
+    border: 1px solid #fff;
+    margin-top: 100px;
+}
+
+.brands .brands-text h2 {
+    font-size: 280%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.brands .logoipsum {
+    width: 70%;
+    height: 17vh;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.brands .logoipsum .logoipsum1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
