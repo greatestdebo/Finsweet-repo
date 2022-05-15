@@ -5,108 +5,135 @@
 }
 
 .header-section {
-    justify-content: space-between;
     width: 70%;
+    min-height: 8vh;
+    margin: 0 auto;
     border: 1px solid #fff;
-    margin:0 auto;
     display: flex;
     flex-direction: row;
 }
 
-.menu-list {
-    margin-top: 10px;
-    margin-left: 300px;
+.header-section .header-LHS {
+    width: 40%;
+    min-height: 8vh;
+    border: 1px solid #fff;
     display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.navigation-menu ul li {
-    color: black;
-    justify-content: space-between;
-    padding-left: 30px;
-}
-.navigation-menu ul li a {
-    text-decoration: none;
-    color: black;  
-}
-
-.RAS-number {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    color: black;
-    padding-left: 10px;
-    justify-content: center;
-}
-
-.RAS-number p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.RAS-section {
-    display: flex;
-}
-
-.RAS-section .grey-line {
-    margin-right: 20px;
-}
-.RAS-section img {
-    padding-right: 10px;
-}
-.RAS-section .RAS-logo {
-    min-height: 70%;
     align-items: center;
 }
 
+.header-section .header-RHS {
+    width: 60%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-section .header-RHS .navigation-menu {
+    width: 65%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-section .header-RHS .menu-list {
+    width: 65%;
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section .header-RHS .menu-list a {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+.header-section .header-RHS .menu-list li {
+    list-style: none;
+    font-size: 120%;
+}
+
+.header-section .header-RHS .grey-line {
+    width: 5%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-section .header-RHS .RAS {
+    width: 30%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
 
 /* SERVICE SECTION 1 */
-
 .service-sec1 {
     width: 100%;
     min-height: 85vh;
     border: 1px solid #fff;
     background: #fff;
+}
+
+.service-sec1 .sec1-holder {
+    width: 65%;
+    min-height: 60vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #fff;
     display: flex;
     flex-direction: row;
 }
 
-.service-sec1 .service-car {
-    width: 45%;
-    min-height: 65%;
-    border: 1px solid #fff;
-    margin-left: 15%;
-    margin-top: 80px;
-}
-
-.service-sec1 .service-car img {
-    width: 100%;
-}
-
-.service-sec1 .black-box {
-    position: absolute;
+.service-sec1 .sec1-holder .service-car {
     width: 40%;
-    min-height: 64%;
+    min-height: 55vh;
+    background: url(../img/serviced-car.png);
+    background-size: cover;
+}
+
+
+.service-sec1 .sec1-holder .black-box {
+    width: 60%;
+    min-height: 45vh;
     background: black;
     border: 1px solid black;
-    margin-left: 665px;
-    margin-top: 73px;
 }
-
-.service-sec1 .black-box h2 {
+.service-sec1 .sec1-holder .black-box h2 {
     color: #fff;
     font-size: 400%;
     padding: 60px 50px 10px 80px;
 }
-
-.service-sec1 .black-box p {
+.service-sec1 .sec1-holder .black-box p {
     color: #fff;
-    font-size: 125%;
+    font-size: 118%;
     padding: 0 50px 10px 80px;
 }
-
-.service-sec1 .black-box img {
-    padding: 40px 0 0 80px;
+.service-sec1 .sec1-holder .black-box button {
+    color: #fff;
+    background: orangered;
+    width: 25%;
+    height: 50px;
+    margin: 30px 0 0 80px;
+    border-radius: 10px;
+    border: 1px solid orangered;
+    cursor: pointer;
 }
+
+
 
 
 
@@ -117,114 +144,124 @@
 /* SECTION 2- AUTO DIAGNOSTICS */
 
 .service-sec2 {
-    width: 95%;
+    width: 100%;
     min-height: 115vh;
     border: 1px solid #F5F5F5;
     background: #F5F5F5;
-    display: flex;
-    flex-direction: row;
+
 }
 
-.service-sec2 .sec2-LHS {
-    width: 35%;
-    min-height: 75%;
-    border:  1px solid #fff;
-    background: #fff;
+.service-sec2 .sec2-holder {
+    width: 70%;
+    min-height: 90vh;
+    margin: 0 auto;
     margin-top: 100px;
-    margin-left: 150px;
-}
-.service-sec2 .sec2-LHS .auto-diagnosis h2 {
-    font-size: 300%;
-    padding: 20px 30px 10px 30px;
-}
-.service-sec2 .sec2-LHS .auto-diagnosis p {
-    font-size: 150%;
-    padding: 10px 30px 10px 30px;
-}
-.service-sec2 .sec2-LHS .auto-diagnosis img {
-    width: 94%;
-    padding: 40px 0 0 30px;
-}
-
-
-.service-sec2 .sec2-LHS .see-service {
-    width: 100%;
+    border: 1px solid #F5F5F5;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.service-sec2 .sec2-holder .sec2-LHS {
+    width: 48%;
+    min-height: 88vh;
+    margin: 0 auto;
+    border: 2px solid #F5F5F5;
+    background: #fff;
+}
+
+.service-sec2 .sec2-holder .sec2-LHS .LHS-pic {
+    width: 90%;
+    min-height: 35vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: url(../img/auto-diagnosis.png);
+    background-size: cover;
     border: 1px solid #fff;
 }
 
-.service-sec2 .sec2-LHS .see-service a {
-    text-decoration: none;
+.service-sec2 .sec2-holder .sec2-LHS .LHS-text {
+    width: 90%;
+    min-height: 30vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #fff;
+}
+.service-sec2 .sec2-holder .sec2-LHS .LHS-text h2 {
+    font-size: 300%;
+}
+.service-sec2 .sec2-holder .sec2-LHS .LHS-text p {
+    font-size: 150%;
+    padding-top: 20px;
 }
 
-.service-sec2 .sec2-LHS .see-service .service-details {
-    width: 100%;
-    min-height: 4vh;
-}
-.service-sec2 .sec2-LHS .see-service .service-details h4 {
-    font-size: 120%;
-    padding-left: 30px;
-    color: black;
-}
-
-.service-sec2 .sec2-LHS .see-service .black-arrow {
-    width: 100%;
-}
-.service-sec2 .sec2-LHS .see-service .black-arrow img {
-    width: 100%;
-    padding: 4px 0 0 10px;
-}
-
-
-
-
-.service-sec2 .sec2-RHS {
-    width: 35%;
-    min-height: 77%;
-    border:  1px solid #F5F5F5;
-    margin-top: 100px;
-    margin-left: 30px;
+.service-sec2 .sec2-holder .sec2-LHS .see-service {
+    width: 90%;
+    min-height: 5vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #fff;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.service-sec2 .sec2-holder .sec2-LHS .see-service a {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+.service-sec2 .sec2-holder .sec2-LHS .see-service img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+
+
+.service-sec2 .sec2-holder .sec2-RHS {
+    width: 45%;
+    min-height: 90vh;
+    margin: 0 auto;
+    border: 1px solid #F5F5F5;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.service-sec2 .sec2-RHS .RHS2-icons {
-    width: 48%;
-    min-height: 31%;
-    border: 1px solid #fff;
+.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons {
+    width: 240px;
+    height: 215px;
     background: #fff;
+    border: 1px solid #F5F5F5;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-bottom: 5px;
+    justify-content: center;
 }
-.service-sec2 .sec2-RHS .RHS2-icons p {
-    font-size: 120%;
-    padding-top: 12px;
+.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons p {
+    font-size: 130%;
+    margin-top: 10px;
 }
 
-.service-sec2 .sec2-RHS .RHS2-icons-orange {
-    width: 48%;
-    min-height: 31%;
-    border: 1px solid orangered;
+.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons-orange {
+    width: 240px;
+    height: 215px;
     background: orangered;
-    color: #fff;
+    border: 1px solid #F5F5F5;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-bottom: 5px;
+    justify-content: center;
 }
-.service-sec2 .sec2-RHS .RHS2-icons-orange p {
-    font-size: 120%;
-    padding-top: 12px;
+.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons-orange p {
+    font-size: 130%;
+    color: #fff;
+    margin-top: 10px;
 }
+
 
 
 
@@ -382,10 +419,6 @@
 
 
 
-
-
-
-
 /* SECTION 4 */
 .service-sec4 {
     width: 100%;
@@ -440,48 +473,121 @@
 
 
 /* FOOTER SECTION */
-.service-footer {
+.service-sec4 {
     width: 100%;
-    min-height: 12vh;
-    background-color: black;
-
-}
-
-.service-footer .footer-section {
-    justify-content: space-between;
-    width: 70%;
-    background: black;
-    border: 1px solid black;
-    margin:0 auto;
+    min-height: 60vh;
+    background: #1E1B1B;
+    border: 1px solid #1E1B1B;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    padding: 25px 0 25px 0;
 }
 
-.menu-list-footer {
-    margin-top: 10px;
-    margin-left: 200px;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+.service-sec4 .service-sec4-LHS {
+    width: 25%;
+    min-height: 25vh;
+    border: 1px solid #1E1B1B;
+    margin-top: 100px;
+    margin-left: 280px;
+    margin-right: 150px;
 }
 
-.navigation-menu-footer ul li {
-    color: black;
-    justify-content: space-between;
-    padding-left: 30px;
-}
-.navigation-menu-footer ul li a {
-    text-decoration: none;
-    color: white;  
-}
-
-
-
-.RAS-section-footer .copyright-footer {
+.service-sec4 .service-sec4-LHS h2 {
+    font-size: 250%;
     color: #fff;
 }
 
-.RAS-section-footer .copyright-footer p {
-    padding: 10px 0 0 100px;
+.service-sec4 .service-sec4-LHS .social-logos {
+    width: 40%;
+    min-height: 4vh;
+    border: 1px solid 1E1B1B;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.service-sec4 .service-sec4-RHS {
+    width: 25%;
+    min-height: 30vh;
+    border: 1px solid #1E1B1B;
+    margin-top: 100px;
+    color: #fff;
+}
+.service-sec4 .service-sec4-RHS p {
+    font-size: 120%;
+    padding: 10px 0 30px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+.footer-container {
+    width: 100%;
+    min-height: 8vh;
+    margin: 0 auto;
+    background: black;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer-container .footer-section {
+    width: 70%;
+    min-height: 8vh;
+    margin: 0 auto;
+    background: black;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container .footer-section .footer-LHS{
+    width: 30%;
+    min-height: 8vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-container .footer-section .footer-MHS{
+    width: 52%;
+    min-height: 8vh;
+    border: 1px solid black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer-container .footer-section .footer-MHS .black-footer {
+    width: 75%;
+    min-height: 8vh;
+    border: 3px solid black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-container .footer-section .footer-MHS .black-footer a {
+    text-decoration: none;
+    font-size: 120%;
+    color: #fff;
+}
+
+
+.footer-container .footer-section .footer-RHS{
+    width: 18%;
+    min-height: 8vh;
+    border: 1px solid black;
+    color: #fff;
+    display: flex;
+    align-items: center;
 }

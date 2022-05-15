@@ -5,58 +5,81 @@
 }
 
 .header-section {
-    justify-content: space-between;
     width: 70%;
+    min-height: 8vh;
+    margin: 0 auto;
     border: 1px solid #fff;
-    margin:0 auto;
     display: flex;
     flex-direction: row;
 }
 
-.menu-list {
-    margin-top: 10px;
-    margin-left: 300px;
+.header-section .header-LHS {
+    width: 40%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.header-section .header-RHS {
+    width: 60%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-section .header-RHS .navigation-menu {
+    width: 65%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-section .header-RHS .menu-list {
+    width: 65%;
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section .header-RHS .menu-list a {
+    color: black;
     display: flex;
     flex-direction: row;
     list-style: none;
-}
-
-.navigation-menu ul li {
-    color: black;
-    justify-content: space-between;
-    padding-left: 30px;
-}
-.navigation-menu ul li a {
     text-decoration: none;
-    color: black;  
+}
+.header-section .header-RHS .menu-list li {
+    list-style: none;
+    font-size: 120%;
 }
 
-.RAS-number {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    color: black;
-    padding-left: 10px;
+.header-section .header-RHS .grey-line {
+    width: 5%;
+    min-height: 8vh;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.RAS-number p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.RAS-section {
+.header-section .header-RHS .RAS {
+    width: 30%;
+    min-height: 8vh;
+    border: 1px solid #fff;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.RAS-section .grey-line {
-    margin-right: 20px;
-}
-.RAS-section img {
-    padding-right: 10px;
-}
-.RAS-section .RAS-logo {
-    min-height: 70%;
-    align-items: center;
-}
+
+
+
 
 
 
@@ -739,6 +762,7 @@
 }
 .our-cus .feedback-footer .page-slider .slider1 img {
     width: 100%;
+    cursor: pointer;
 }
 
 .our-cus .feedback-footer .page-slider .slider2 {
@@ -748,9 +772,8 @@
 }
 .our-cus .feedback-footer .page-slider .slider2 img {
     height: 100%;
+    cursor: pointer;
 }
-
-
 
 
 
@@ -911,48 +934,82 @@
 
 /* FOOTER SECTION */
 /* FOOTER SECTION */
-.service-footer {
+.footer-container {
     width: 100%;
-    min-height: 12vh;
-    background-color: black;
-
-}
-
-.service-footer .footer-section {
-    justify-content: space-between;
-    width: 70%;
+    min-height: 8vh;
+    margin: 0 auto;
     background: black;
     border: 1px solid black;
-    margin:0 auto;
     display: flex;
     flex-direction: row;
-    padding: 25px 0 25px 0;
 }
 
-.menu-list-footer {
-    margin-top: 10px;
-    margin-left: 200px;
+
+.footer-container .footer-section {
+    width: 70%;
+    min-height: 8vh;
+    margin: 0 auto;
+    background: black;
+    border: 1px solid black;
     display: flex;
     flex-direction: row;
+}
+
+.footer-container .footer-section .footer-LHS{
+    width: 30%;
+    min-height: 8vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-container .footer-section .footer-MHS{
+    width: 52%;
+    min-height: 8vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container .footer-section .footer-MHS .menu-list {
+    width: 75%;
+    min-height: 8vh;
+    border: 1px solid black;
+    color: #fff;
     list-style: none;
-}
-
-.navigation-menu-footer ul li {
-    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    padding-left: 30px;
 }
-.navigation-menu-footer ul li a {
+.footer-container .footer-section .footer-MHS .menu-list a{
     text-decoration: none;
-    color: white;  
-}
-
-
-
-.RAS-section-footer .copyright-footer {
+    font-size: 120%;
     color: #fff;
 }
 
-.RAS-section-footer .copyright-footer p {
-    padding: 10px 0 0 100px;
+.footer-container .footer-section .footer-RHS{
+    width: 18%;
+    min-height: 8vh;
+    border: 1px solid black;
+    color: #fff;
+    display: flex;
+    align-items: center;
 }
+
+
+
+/* MOBILE VIEW */
+/* @media (max-width: 426px) {
+    .header-section {
+        flex-direction: column;
+    }
+
+    .header-section .menu-section .navigation-menu ul {
+        flex-direction: column;
+    }
+    .RAS-section {
+        flex-direction: column;
+    }
+} */
