@@ -29,14 +29,6 @@
     flex-direction: row;
 }
 
-.header-section .header-RHS .navigation-menu {
-    width: 65%;
-    min-height: 8vh;
-    border: 1px solid #fff;
-    display: flex;
-    flex-direction: row;
-}
-
 .header-section .header-RHS .menu-list {
     width: 65%;
     min-height: 8vh;
@@ -65,6 +57,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.header-section .header-RHS .grey-line img {
+    min-height: 100%;
 }
 
 .header-section .header-RHS .RAS {
@@ -368,21 +363,28 @@
     background-color: #F2F2F2;
     width: 100%;
     min-height: 110vh;
+    margin: 0 auto;
     border: 1px solid #F2F2F2;
 }
 
-.we-offer h4 {
+.we-offer .offer-header {
+    width: 100%;
+    min-height: 30vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.we-offer .offer-header h4 {
     margin: 0 auto;
     text-align: center;
     font-size: 150%;
-    margin-top: 70px;
 }
-.we-offer h2 {
+.we-offer .offer-header h2 {
     margin: 0 auto;
     font-size: 360%;
     width: 50%;
     text-align: center;
-    margin-bottom: 40px;
 }
 
 .we-offer .offers {
@@ -559,15 +561,22 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.brands .logoipsum {
-    width: 70%;
+.brands .brand-box {
+    width: 75%;
+    min-height: 35vh;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+.brands .brand-box .logoipsum {
+    width: 100%;
     min-height: 17vh;
     border: 1px solid #fff;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-.brands .logoipsum .logoipsum1 {
+.brands .brandbox .logoipsum .logoipsum1 {
     display: flex;
     flex-direction: row;
 }
@@ -900,7 +909,13 @@
     margin-right: 150px;
 }
 
-.service-sec4 .service-sec4-LHS h2 {
+.service-sec4 .service-sec4-LHS .LHS-header {
+    width: 100%;
+    min-height: 25vh;
+    border: 1px solid #1E1B1B;
+}
+
+.service-sec4 .service-sec4-LHS .LHS-header h2 {
     font-size: 250%;
     color: #fff;
 }
@@ -1001,15 +1016,193 @@
 
 
 /* MOBILE VIEW */
-/* @media (max-width: 426px) {
+@media (max-width: 426px) {
     .header-section {
         flex-direction: column;
     }
+    .header-section .header-RHS {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    .header-section .header-RHS .menu-list {
+        flex-direction: column;
+    }
+    .header-section .header-RHS .menu-list li {
+        padding: 5px;
+        align-self: flex-start;
+   
+    }
+    .header-section .header-RHS .grey-line {
+        display: none;
+    }
+    .header-section .header-RHS .RAS {
+        width: 100%;
+        display: none;
+    }
 
-    .header-section .menu-section .navigation-menu ul {
+
+    .booking-section {
         flex-direction: column;
     }
-    .RAS-section {
+    .booking-section .text-booking {
+        width: 100%;
+    }
+    .booking-section .text-booking h2 {
+        font-size: 80%;
+    }
+    .booking-section .text-booking .booking-header button {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .process-section {
         flex-direction: column;
     }
-} */
+
+
+
+
+
+
+
+
+
+
+    .we-offer .offer-header h2 {
+        font-size: 160%;
+    }
+
+
+
+
+
+    .brands .brands-text {
+        width: 100%;
+    }
+    .brands .logoipsum {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+    .our-cus .our-cus-header {
+        width: 90%;
+    }
+    .our-cus .our-cus-header h2 {
+        font-size: 180%;
+    }
+    .our-cus .feedback {
+        width: 90%;
+    }
+    .our-cus .feedback-footer {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .our-cus .feedback .feedback-LHS .feedback-down p {
+        font-size: 80%;
+        padding-bottom: 10px;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-down p {
+        font-size: 80%;
+        padding-bottom: 10px;
+    }
+    
+
+
+
+
+
+
+
+
+    .faq-home .faq-upper-text {
+        width: 70%;
+    }
+    .faq-home .faq-upper-text h2 {
+        font-size: 150%;
+    }
+    .faq-home .faq-home-big {
+        width: 90%;
+    }
+    .faq-home .faq-home-big .faq-home-big-lower p {
+        width: 80%;
+        font-size: 100%;
+    }
+    .faq-home .faq-home-small {
+        width: 90%;
+    }
+    .faq-home .faq-home-small h4 {
+        font-size: 100%;
+    }
+
+
+
+
+
+
+
+
+    .service-sec4 {
+        flex-direction: row;
+
+    }
+    .service-sec4 .service-sec4-LHS {
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-right: 10px;
+        width: 65%;
+    }
+    .service-sec4 .service-sec4-LHS .LHS-header h2 {
+        font-size: 160%;
+        width: 100%;
+    }
+    .service-sec4 .service-sec4-LHS .social-logos {
+        width: 80%;
+        margin-top: 15px;
+    }
+
+
+    .service-sec4 .service-sec4-RHS {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .service-sec4 .service-sec4-RHS p {
+        font-size: 80%;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .service-sec4 .service-sec4-RHS h4 {
+        font-size: 80%;
+        padding-top: 10px;
+    }
+
+
+}
