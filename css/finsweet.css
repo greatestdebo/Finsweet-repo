@@ -163,7 +163,7 @@
 .section2-class .section2-box {
     width: 70%;
     min-height: 85vh;
-    margin: auto;
+    margin: 0 auto;
     border: 1px solid #E2E6E9;
     display: flex;
     flex-direction: row;
@@ -179,6 +179,7 @@
 
 .section2-class .section2-box .section2-LHS .we-are-taking h2 {
     font-size: 360%;
+    align-self  : center;
 }
 .section2-class .section2-box .section2-LHS .we-are-taking ul {
     list-style: none;
@@ -213,7 +214,6 @@
 .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box a {
     font-size: 130%;
     color: black;
-    padding-right: 15px;
     text-decoration: none;   
 }
 
@@ -368,11 +368,11 @@
 }
 
 .we-offer .offer-header {
-    width: 100%;
+    width: 50%;
     min-height: 30vh;
     margin: 0 auto;
     margin-top: 50px;
-    border: 1px solid black;
+    border: 1px solid #F2F2F2;
 }
 
 .we-offer .offer-header h4 {
@@ -383,15 +383,15 @@
 .we-offer .offer-header h2 {
     margin: 0 auto;
     font-size: 360%;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
 .we-offer .offers {
     width: 70%;
-    min-height: 50%;
+    min-height: 60vh;
     margin: 0 auto;
-    border: 1px solid #F2F2F2;
+    border: 1px solid black ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -401,28 +401,30 @@
 .we-offer .offers .offers-box {
     background: #fff;
     border: 1px solid #fff;
-    width: 250px;
-    min-height: 200px;
+    width: 23%;
+    min-height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 130%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .we-offer .offers .offers-box-orange {
     color: #fff;
     background: #FF6433;
     border: 1px solid #FF6433;
-    width: 250px;
-    min-height: 200px;
+    width: 23%;
+    min-height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 130%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .we-offer .know-more-text {
@@ -724,7 +726,6 @@
 }
 
 
-
 .our-cus .feedback-footer {
     width: 37%;
     min-height: 7vh;
@@ -1015,6 +1016,14 @@
 
 
 
+
+
+
+/* MEDIA QUERY SECTION
+MEDIA QUERY SECTION
+MEDIA QUERY SECTION */
+
+
 /* MOBILE VIEW */
 @media (max-width: 426px) {
     .header-section {
@@ -1064,10 +1073,74 @@
 
 
 
+    .section2-class .section2-box {
+        width: 100%;
+        flex-direction: column;
+    }
+    .section2-class .section2-box .section2-LHS {
+        width: 100%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking {
+        width: 100%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking h2 {
+        font-size: 200%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 {
+        width: 100%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box p {
+        font-size: 120%;
+    }
+
+
+
+    .section2-class .section2-box {
+        padding: 0;
+    }
+    .section2-class .section2-box .section2-RHS {
+        width: 90%;
+    }
+    .section2-class .section2-box .section2-RHS .get-a-quote {
+        width: 100%;
+    }
+    .section2-class .section2-box .section2-RHS .get-a-quote h2 {
+        width: 100%;
+        padding: 0;
+        font-size: 150%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box a {
+        font-size: 100%;
+    }
+
+
+
+
+
+
+
+
+
 
 
     .process-section {
+    }
+    .process-section .section3-container {
         flex-direction: column;
+        width: 100%;
+    }
+    .process-section .section3-container .section3-LHS {
+        width: 100%;
+    }
+    .process-section .section3-container .section3-LHS h2 {
+        width: 100%;
+        font-size: 200%;
+    }
+    .process-section .section3-container .section3-LHS p {
+        width: 100%;
+    }
+    .process-section .section3-container .section3-RHS {
+        width: 100%;
     }
 
 
@@ -1078,11 +1151,32 @@
 
 
 
-
+    .we-offer .offer-header {
+        width: 80%;
+    }
+    .we-offer .offer-header h4 {
+        font-size: 100%;
+    }
     .we-offer .offer-header h2 {
         font-size: 160%;
     }
-
+    .we-offer .offers {
+        width: 90%;
+    }
+    .we-offer .offers .offers-box {
+        width: 45%;
+        min-height: 30vh;
+    }
+    .we-offer .offers .offers-box-orange {
+        width: 45%;
+        min-height: 30vh;
+    }
+    .we-offer .offers .offers-box p {
+        font-size: 50%;
+    }
+    .we-offer .offers .offers-box-orange p {
+        font-size: 50%;
+    }
 
 
 
@@ -1092,6 +1186,50 @@
     }
     .brands .logoipsum {
         flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+    .get-in-touch .GIT-upper {
+        flex-direction: column;
+    }
+    .get-in-touch .GIT-upper .GIT-upper1 {
+        width: 100%;
+    }
+    .get-in-touch .GIT-upper .GIT-upper2 {
+        width: 100%;
+        min-height: 100%;
+        padding: 20px 10px 20px 10px;
+    }
+    .get-in-touch .GIT-upper .GIT-upper2 h2 {
+        width: 100%;
+        font-size: 200%;
+        padding: 0 0 0 0;
+    }
+    .get-in-touch .GIT-upper .GIT-upper2 button {
+        margin: 10px 0 0 20px;
+    }
+    .get-in-touch .GIT-upper .GIT-upper3 {
+        width: 100%;
+    }
+
+    .get-in-touch .GIT-lower {
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .get-in-touch .GIT-lower .GIT-number-figures h2 {
+        font-size: 100%;
+    }
+    .get-in-touch .GIT-lower .GIT-number-figures p {
+        font-size: 70%;
     }
 
 
@@ -1126,9 +1264,27 @@
 
 
 
+
+
+    .our-cus .our-cus-header h2 {
+
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
+        font-size: 70%;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
+        font-size: 70%;
+    }
     .our-cus .feedback .feedback-LHS .feedback-down p {
         font-size: 80%;
         padding-bottom: 10px;
+    }
+
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
+        font-size: 70%;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
+        font-size: 70%;
     }
     .our-cus .feedback .feedback-RHS .feedback-down p {
         font-size: 80%;
@@ -1152,9 +1308,12 @@
     .faq-home .faq-home-big {
         width: 90%;
     }
-    .faq-home .faq-home-big .faq-home-big-lower p {
-        width: 80%;
+    .faq-home .faq-home-big .faq-home-big-upper h4 {
         font-size: 100%;
+    }
+    .faq-home .faq-home-big .faq-home-big-lower p {
+        width: 75%;
+        font-size: 80%;
     }
     .faq-home .faq-home-small {
         width: 90%;
