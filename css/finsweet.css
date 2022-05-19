@@ -1088,6 +1088,8 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .booking-section .text-booking {
         width: 90%;
+        min-height: 100%;
+        margin-bottom: 50px;
     }
     .booking-section .text-booking h2 {
         font-size: 80%;
@@ -1097,9 +1099,8 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .booking-section .picture-booking {
         width: 100%;
-        min-height: 100vh;
+        min-height: 70vh;
     }
-
 
 
 
