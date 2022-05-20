@@ -69,10 +69,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
-
+.header-section .header-RHS .RAS .RAS-logo {
+    border: 1px solid #fff;
+    width: 25%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-section .header-RHS .RAS .RAS-text {
+    border: 1px solid #fff;
+}
 
 
 
@@ -98,7 +107,7 @@
 }
 
 .booking-section .text-booking .booking-header {
-    border: 5px solid #fff;
+    border: 1px solid red;
     min-height: 50%;
     width: 100%;
     font-size: 250%;
@@ -118,12 +127,11 @@
 .booking-section .text-booking .booking-text {
     display: flex;
     flex-direction: column;
-    border: 1px solid #fff;
+    border: 1px solid black;
     min-height: 10%;
     width: 100%;
     margin-top: 50px;
 }
-
 
 .booking-section .text-booking .booking-text .we-are-open {
     display: flex;
@@ -148,12 +156,7 @@
 
 
 
-
-
-
-
 /* SECTION 2 WORK */
-
 .section2-class {
     width: 100%;
     min-height: 100vh;
@@ -198,12 +201,15 @@
     list-style: none;
 }
 .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box {
-    width: 16%;
-    padding: 0 10px 40px 0;
+    width: 18%;
+    /* padding: 0 10px 40px 0; */
 }
 .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box img {
-    width: 100%;
-    
+    width: 100%; 
+}
+.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box {
+    border: 1px solid #E2E6E9;
+    margin-left: 10px;
 }
 .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box h5 {
     font-size: 150%;
@@ -261,12 +267,6 @@
 
 
 
-
-
-
-
-
-
 /* SECTION 3  PROCESS SECTION */
 .process-section {
     width: 100%;
@@ -315,7 +315,7 @@
 
 
 .process-section .section3-container .section3-RHS {
-    border: 1px solid #fff;
+    border: 1px solid red;
     width: 40%;
     min-height: 100%;
 }
@@ -466,7 +466,7 @@
 .get-in-touch .GIT-upper {
     width: 100%;
     min-height: 40vh;
-    border: 1px solid #F2F2F2;
+    border: 1px solid black;
     display: flex;
     flex-direction: row;
 }
@@ -476,6 +476,7 @@
     min-height: 40vh;
     background: url(../img/car-rear.png);
     background-size: cover;
+    border: 3px solid red;
 }
 
 .get-in-touch .GIT-upper .GIT-upper2 {
@@ -635,11 +636,12 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-dp {
     width: 15%;
-    height: 100%;
+    min-height: 100%;
     border: 1px solid #fff;
 }
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-dp img {
@@ -648,17 +650,21 @@
 }
 
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-name {
-    width: 85%;
-    height: 100%;
-    border: 1px solid #fff;
+    width: 80%;
+    min-height: 100%;
+    margin-left: 10px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
-    font-size: 120%;
-    padding: 10px 0 0 10px;
-
+    font-size: 140%;
+    border: 1px solid red;
 }
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
-    padding: 5px 0 0 10px;
+    font-size: 100%;
+    color: gray;
 }
 
 .our-cus .feedback .feedback-LHS .feedback-down {
@@ -689,11 +695,12 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .our-cus .feedback .feedback-RHS .feedback-up .feedback-dp {
     width: 15%;
-    height: 100%;
+    min-height: 100%;
     border: 1px solid #fff;
 }
 .our-cus .feedback .feedback-RHS .feedback-up .feedback-dp img {
@@ -702,16 +709,20 @@
 }
 
 .our-cus .feedback .feedback-RHS .feedback-up .feedback-name {
-    width: 85%;
-    height: 100%;
-    border: 1px solid #fff;
+    width: 80%;
+    min-height: 100%;
+    margin-left: 10px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
-    font-size: 120%;
-    padding: 10px 0 0 10px;
+    font-size: 140%;
 }
 .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
-    padding: 5px 0 0 10px;
+    font-size: 100%;
+    color: gray;
 }
 
 .our-cus .feedback .feedback-RHS .feedback-down {
@@ -1071,16 +1082,28 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .header-section .header-RHS .menu-list li {
         padding: 5px;
-        font-size: 70%;
+        font-size: 75%;
         align-self: flex-start;
     }
     .header-section .header-RHS .grey-line {
         display: none;
     }
     .header-section .header-RHS .RAS {
-        width: 100%;
-        display: none;
+        width: 40%;
+        flex-direction: row;
+        justify-content: center;
     }
+    .header-section .header-RHS .RAS .RAS-logo img {
+        width: 100%;
+    }
+    .header-section .header-RHS .RAS .RAS-text {
+        padding-left: 4px;
+    }
+    .header-section .header-RHS .RAS .RAS-text h3 {
+        font-size: 80%;
+        padding-left: 0px;
+    }
+
     .booking-section {
         flex-direction: column-reverse;
         width: 90%;
@@ -1091,15 +1114,20 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         min-height: 100%;
         margin-bottom: 50px;
     }
-    .booking-section .text-booking h2 {
-        font-size: 80%;
+    .booking-section .text-booking .booking-header h2 {
+        font-size: 70%;
     }
     .booking-section .text-booking .booking-header button {
-        width: 50%;
+        width: 35%;
     }
+    .booking-section .text-booking .booking-text .we-are-open h3 {
+        font-size: 100%;
+    }
+
+
     .booking-section .picture-booking {
         width: 100%;
-        min-height: 70vh;
+        min-height: 60vh;
     }
 
 
@@ -1112,6 +1140,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     .section2-class .section2-box {
         width: 90%;
         flex-direction: column;
+        padding-top: 0px;
     }
     .section2-class .section2-box .section2-LHS {
         width: 100%;
@@ -1121,28 +1150,34 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .section2-class .section2-box .section2-LHS .we-are-taking h2 {
         font-size: 200%;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
     }
     .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 {
         width: 100%;
     }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box h5 {
+        font-size: 140%;
+    }
     .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box p {
-        font-size: 120%;
+        font-size: 110%;
     }
 
     .section2-class .section2-box .section2-RHS {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 20px;
     }
     .section2-class .section2-box .section2-RHS .get-a-quote {
         width: 100%;
-        align-items: center;
+        text-align: center;
     }
     .section2-class .section2-box .section2-RHS .get-a-quote h2 {
         width: 100%;
-        padding: 0;
-        font-size: 140%;
+        padding: 10px 0 10px 0;
+        font-size: 200%;
         align-items: center;
+        padding: 5px 50px 20px 50px;
     }
     .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box {
         width: 20%;
@@ -1164,12 +1199,13 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
 
 
-    .process-section {
-    }
+
     .process-section .section3-container {
         flex-direction: column;
         width: 90%;
         align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .process-section .section3-container .section3-LHS {
         width: 100%;
@@ -1178,15 +1214,23 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         width: 100%;
         font-size: 200%;
         margin-top: 0;
+        text-align: center;
+        padding-bottom: 30px;
     }
     .process-section .section3-container .section3-LHS p {
         width: 100%;
     }
     .process-section .section3-container .section3-RHS {
         width: 100%;
+        margin-top: 40px;
     }
-
-
+    .process-section .section3-container .section3-RHS .RHS3-text h4 {
+        font-size: 150%;
+        padding-top: 15px;
+    }
+    .process-section .section3-container .section3-RHS .RHS3-text p {
+        font-size: 100%;
+    }
 
 
 
@@ -1245,36 +1289,38 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .get-in-touch .GIT-upper .GIT-upper1 {
         width: 100%;
-        min-height: 60vh;
+    }
+    .get-in-touch .GIT-upper .GIT-upper1 img {
+        width: 100%;
     }
     .get-in-touch .GIT-upper .GIT-upper2 {
         width: 100%;
         min-height: 100%;
-        padding: 20px 10px 20px 10px;
     }
     .get-in-touch .GIT-upper .GIT-upper2 h2 {
         width: 100%;
-        font-size: 200%;
-        padding: 0 0 0 0;
+        font-size: 160%;
     }
     .get-in-touch .GIT-upper .GIT-upper2 button {
         margin: 10px 0 0 20px;
     }
     .get-in-touch .GIT-upper .GIT-upper3 {
         width: 100%;
-        min-height: 60vh;
     }
 
     .get-in-touch .GIT-lower {
         width: 100%;
         flex-direction: column;
-        padding-bottom: 20px;
+    }
+    .get-in-touch .GIT-lower .GIT-number-figures {
+        width: 100%;
+        text-align: left;
     }
     .get-in-touch .GIT-lower .GIT-number-figures h2 {
-        font-size: 100%;
+        font-size: 120%;
     }
     .get-in-touch .GIT-lower .GIT-number-figures p {
-        font-size: 70%;
+        font-size: 80%;
     }
 
 
@@ -1325,21 +1371,32 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         width: 90%;
         margin-bottom: 20px;
     }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-dp {
+        width: 25%;
+        min-height: 200%;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
+        font-size: 100%;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
+        font-size: 100%;
+    }
+
+
     .our-cus .feedback .feedback-RHS {
         width: 90%;
     }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-dp {
+        width: 25%;
+    }
+
+
     .our-cus .feedback-footer {
         width: 50%;
     }
     .our-cus .feedback-footer .page-lines {
         display: none;
     }
-
-
-
-
-
-
 
 
 
@@ -1418,12 +1475,16 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         margin-right: 10px;
         width: 65%;
     }
+    .service-sec4 .service-sec4-LHS .LHS-header {
+        width: 80%;
+        min-height: 10vh;
+    }
     .service-sec4 .service-sec4-LHS .LHS-header h2 {
         font-size: 160%;
         width: 100%;
     }
     .service-sec4 .service-sec4-LHS .social-logos {
-        width: 80%;
+        width: 70%;
         margin-top: 15px;
     }
 
@@ -1460,6 +1521,38 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     .footer-container .footer-section .footer-RHS {
         width: 100%;
     }
+}
 
+
+/* MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
+
+
+/* TABLET VIEW
+TABLET VIEW */
+@media (max-width: 768px) {
 
 }
