@@ -8,7 +8,7 @@
     width: 70%;
     min-height: 8vh;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #fff;
     display: flex;
     flex-direction: row;
 }
@@ -65,19 +65,18 @@
 .header-section .header-RHS .RAS {
     width: 30%;
     min-height: 8vh;
-    border: 1px solid #fff;
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .header-section .header-RHS .RAS .RAS-logo {
-    border: 1px solid #fff;
+    border: 1px solid black;
     width: 25%;
     min-height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .header-section .header-RHS .RAS .RAS-text {
     border: 1px solid #fff;
@@ -91,7 +90,7 @@
 .booking-section {
     width: 70%;
     min-height: 88vh;
-    border: 1px solid black;
+    border: 1px solid #fff;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -103,11 +102,11 @@
     min-height: 88vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid #fff;
 }
 
 .booking-section .text-booking .booking-header {
-    border: 1px solid red;
+    border: 1px solid #fff;
     min-height: 50%;
     width: 100%;
     font-size: 250%;
@@ -127,7 +126,7 @@
 .booking-section .text-booking .booking-text {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid #fff;
     min-height: 10%;
     width: 100%;
     margin-top: 50px;
@@ -176,7 +175,7 @@
 .section2-class .section2-box .section2-LHS {
     width: 50%;
     min-height: 100%;
-    border: 1px solid black;
+    border: 1px solid #E2E6E9;
     margin-right: 3%;
 }
 
@@ -202,7 +201,6 @@
 }
 .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box {
     width: 18%;
-    /* padding: 0 10px 40px 0; */
 }
 .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box img {
     width: 100%; 
@@ -228,7 +226,7 @@
 .section2-class .section2-box .section2-RHS {
     width: 50%;
     min-height: 100%;
-    border: 1px solid black;
+    border: 1px solid #E2E6E9;
 }
 
 .section2-class .section2-box .section2-RHS .get-a-quote {
@@ -278,7 +276,7 @@
     width: 67%;
     min-height: 65vh;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #fff;
     margin-top: 15vh;
     margin-bottom: 15vh;
     display: flex;
@@ -315,7 +313,7 @@
 
 
 .process-section .section3-container .section3-RHS {
-    border: 1px solid red;
+    border: 1px solid #fff;
     width: 40%;
     min-height: 100%;
 }
@@ -363,7 +361,7 @@
     width: 100%;
     min-height: 110vh;
     margin: 0 auto;
-    border: 1px solid #F2F2F2;
+    border: 1px solid black;
 }
 
 .we-offer .offer-header {
@@ -1093,15 +1091,16 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         flex-direction: row;
         justify-content: center;
     }
+
     .header-section .header-RHS .RAS .RAS-logo img {
-        width: 100%;
-    }
-    .header-section .header-RHS .RAS .RAS-text {
-        padding-left: 4px;
+        width: 60%;
     }
     .header-section .header-RHS .RAS .RAS-text h3 {
-        font-size: 80%;
+        font-size: 60%;
         padding-left: 0px;
+    }
+    .header-section .header-RHS .RAS .RAS-text p {
+        font-size: 70%;
     }
 
     .booking-section {
@@ -1127,7 +1126,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
     .booking-section .picture-booking {
         width: 100%;
-        min-height: 60vh;
+        min-height: 50vh;
     }
 
 
