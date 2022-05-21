@@ -65,14 +65,14 @@
 .header-section .header-RHS .RAS {
     width: 30%;
     min-height: 8vh;
-    border: 1px solid red;
+    border: 1px solid #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .header-section .header-RHS .RAS .RAS-logo {
-    border: 1px solid black;
+    border: 1px solid #fff;
     width: 25%;
     min-height: 100%;
     display: flex;
@@ -215,10 +215,18 @@
 .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box p {
     font-size: 120%;
 }
-.section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box a {
-    font-size: 130%;
+.section2-class .section2-box .section2-LHS .we-are-taking .know-more {
+    width: 40%;
+    min-height: 7vh;
+    border: 1px solid #E2E6E9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.section2-class .section2-box .section2-LHS .we-are-taking .know-more a {
+    font-size: 100%;
+    text-decoration: none;
     color: black;
-    text-decoration: none;   
 }
 
 
@@ -361,7 +369,7 @@
     width: 100%;
     min-height: 110vh;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #F2F2F2;
 }
 
 .we-offer .offer-header {
@@ -369,7 +377,7 @@
     min-height: 20vh;
     margin: 0 auto;
     margin-top: 50px;
-    border: 1px solid black;
+    border: 1px solid #F2F2F2;
 }
 
 .we-offer .offer-header h4 {
@@ -476,19 +484,19 @@
     min-height: 40vh;
     background: url(../img/car-rear.png);
     background-size: cover;
-    border: 3px solid red;
+    border: 3px solid black;
 }
 
 .get-in-touch .GIT-upper .GIT-upper2 {
     width: 37%;
     min-height: 50vh;
     background: #FF6433;
-    padding: 100px 50px 100px 50px;
+    border: 1px solid #FF6433;
 }
 .get-in-touch .GIT-upper .GIT-upper2 h2 {
     font-size: 270%;
     color: #fff;
-    padding-bottom: 30px;
+    margin: 70px 50px 40px 50px;
 }
 .get-in-touch .GIT-upper .GIT-upper2 button {
     width: 25%;
@@ -496,6 +504,7 @@
     border-radius: 10px;
     color: #fff;
     background-color: black;
+    margin-left: 50px;
 }
 
 
@@ -571,7 +580,7 @@
 .brands .brand-box {
     width: 70%;
     min-height: 30vh;
-    border: 1px solid black;
+    border: 1px solid #fff;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
@@ -1090,13 +1099,15 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         display: none;
     }
     .header-section .header-RHS .RAS {
-        width: 40%;
+        width: 35%;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
     }
-
+    .header-section .header-RHS .RAS .RAS-logo {
+        width: 25%;
+    }
     .header-section .header-RHS .RAS .RAS-logo img {
-        width: 60%;
+        width: 100%;
     }
     .header-section .header-RHS .RAS .RAS-text h3 {
         font-size: 60%;
@@ -1105,7 +1116,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     .header-section .header-RHS .RAS .RAS-text p {
         font-size: 70%;
     }
-
+    
     .booking-section {
         flex-direction: column-reverse;
         width: 90%;
@@ -1163,6 +1174,9 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box p {
         font-size: 110%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .know-more {
+        width: 55%;
     }
 
     .section2-class .section2-box .section2-RHS {
@@ -1295,36 +1309,36 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         width: 100%;
     }
     .get-in-touch .GIT-upper .GIT-upper1 img {
-        width: 100%;
+        height: min-content;
     }
     .get-in-touch .GIT-upper .GIT-upper2 {
         width: 100%;
-        min-height: 100%;
+        min-height: 0%;
     }
     .get-in-touch .GIT-upper .GIT-upper2 h2 {
         width: 100%;
         font-size: 160%;
+        margin: 0 0 0 0;
+        padding: 20px 0 20px 30px;  
     }
     .get-in-touch .GIT-upper .GIT-upper2 button {
-        margin: 10px 0 0 20px;
+        margin: 0 0 30px 30px;
     }
     .get-in-touch .GIT-upper .GIT-upper3 {
         width: 100%;
     }
-
     .get-in-touch .GIT-lower {
         width: 100%;
         flex-direction: column;
     }
     .get-in-touch .GIT-lower .GIT-number-figures {
         width: 100%;
-        text-align: left;
     }
     .get-in-touch .GIT-lower .GIT-number-figures h2 {
-        font-size: 120%;
+        font-size: 140%;
     }
     .get-in-touch .GIT-lower .GIT-number-figures p {
-        font-size: 80%;
+        font-size: 110%;
     }
 
 
@@ -1445,7 +1459,8 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         width: 70%;
     }
     .faq-home .faq-upper-text h2 {
-        font-size: 150%;
+        font-size: 180%;
+        text-align: center;
     }
     .faq-home .faq-home-big {
         width: 90%;
@@ -1473,37 +1488,35 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
     .service-sec4 {
         flex-direction: column;
+        min-height: 100%;
 
     }
     .service-sec4 .service-sec4-LHS {
-        margin-left: 20px;
-        margin-top: 50px;
-        margin-right: 10px;
-        width: 65%;
+        margin:  0 0 20px 20px;
+        width: 80%;
+        min-height: 100%;
     }
     .service-sec4 .service-sec4-LHS .LHS-header {
         width: 80%;
         min-height: 10vh;
     }
     .service-sec4 .service-sec4-LHS .LHS-header h2 {
-        font-size: 160%;
+        font-size: 200%;
         width: 100%;
     }
     .service-sec4 .service-sec4-LHS .social-logos {
-        width: 70%;
-        margin-top: 15px;
+        width: 50%;
+        margin: 50px 0 0 0;
     }
-
 
     .service-sec4 .service-sec4-RHS {
         width: 90%;
-        margin-top: 40px;
-        margin-left: 20px;
+        min-height: 40%;
+        margin: 0 0 50px 20px
     }
     .service-sec4 .service-sec4-RHS p {
         font-size: 100%;
-        padding-bottom: 0px;
-        padding-top: 0px;
+        padding: 5px 0 20px 0;
     }
     .service-sec4 .service-sec4-RHS h4 {
         font-size: 80%;
@@ -1523,7 +1536,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         font-size: 70%;
         align-self: flex-start;
     }
-    
     .footer-container .footer-section .footer-RHS {
         width: 100%;
     }
