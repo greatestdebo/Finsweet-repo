@@ -436,13 +436,13 @@
 
 .we-offer .know-more-text {
     width: 15%;
-    height: 3vh;
+    height: 8vh;
     border: 1px solid #F2F2F2;
-    margin-top: 20px;
     margin: 0 auto;
     margin-left: 70%;
     margin-top: 20px;
     display: flex;
+    align-items: center;
     flex-direction: row;
 }
 .we-offer .know-more-text a {
@@ -484,7 +484,6 @@
     min-height: 40vh;
     background: url(../img/car-rear.png);
     background-size: cover;
-    border: 3px solid black;
 }
 
 .get-in-touch .GIT-upper .GIT-upper2 {
@@ -507,14 +506,12 @@
     margin-left: 50px;
 }
 
-
 .get-in-touch .GIT-upper .GIT-upper3 {
     width: 48%;
     min-height: 40vh;
     background: url(../img/car-charger.png);
     background-size: cover;
 }
-
 
 .get-in-touch .GIT-lower {
     width: 70%;
@@ -663,18 +660,16 @@
     width: 80%;
     min-height: 100%;
     margin-left: 10px;
-    border: 1px solid green;
+    border: 3px solid green;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
     font-size: 140%;
-    border: 1px solid red;
 }
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
     font-size: 100%;
-    color: gray;
 }
 
 .our-cus .feedback .feedback-LHS .feedback-down {
@@ -1173,7 +1168,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         font-size: 140%;
     }
     .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box p {
-        font-size: 110%;
+        font-size: 100%;
     }
     .section2-class .section2-box .section2-LHS .we-are-taking .know-more {
         width: 60%;
@@ -1209,13 +1204,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
 
 
-
-
-
-
-
-
-
     .process-section .section3-container {
         flex-direction: column;
         width: 90%;
@@ -1245,7 +1233,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         padding-top: 15px;
     }
     .process-section .section3-container .section3-RHS .RHS3-text p {
-        font-size: 100%;
+        font-size: 90%;
     }
 
 
@@ -1270,31 +1258,24 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .we-offer .offers .offers-box {
         width: 45%;
-        min-height: 30vh;
+        min-height: 20vh;
     }
     .we-offer .offers .offers-box-orange {
         width: 45%;
-        min-height: 30vh;
+        min-height: 20vh;
     }
     .we-offer .offers .offers-box p {
-        font-size: 50%;
+        font-size: 75%;
     }
     .we-offer .offers .offers-box-orange p {
-        font-size: 50%;
+        font-size: 75%;
     }
-
-
-
-
-    .brands .brands-text {
-        width: 100%;
+    .we-offer .know-more-text {
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: end;
     }
-    .brands .logoipsum {
-        flex-direction: column;
-    }
-
-
-
 
 
 
@@ -1307,9 +1288,8 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .get-in-touch .GIT-upper .GIT-upper1 {
         width: 100%;
-    }
-    .get-in-touch .GIT-upper .GIT-upper1 img {
-        height: min-content;
+        min-height: 36vh;
+        background-size: contain;
     }
     .get-in-touch .GIT-upper .GIT-upper2 {
         width: 100%;
@@ -1326,23 +1306,23 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .get-in-touch .GIT-upper .GIT-upper3 {
         width: 100%;
+        min-height: 36vh;
+        background-size: contain;
     }
     .get-in-touch .GIT-lower {
         width: 100%;
+        padding-bottom: 50px;
         flex-direction: column;
     }
     .get-in-touch .GIT-lower .GIT-number-figures {
         width: 100%;
     }
     .get-in-touch .GIT-lower .GIT-number-figures h2 {
-        font-size: 140%;
+        font-size: 150%;
     }
     .get-in-touch .GIT-lower .GIT-number-figures p {
         font-size: 110%;
     }
-
-
-
 
 
 
@@ -1374,8 +1354,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
 
 
-
-
     .our-cus .our-cus-header {
         width: 90%;
     }
@@ -1395,6 +1373,10 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         width: 25%;
         min-height: 200%;
     }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name {
+        width: 100%;
+        min-height: 8vh;
+    }
     .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
         font-size: 100%;
     }
@@ -1403,12 +1385,27 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
 
 
+
     .our-cus .feedback .feedback-RHS {
         width: 90%;
+        margin-bottom: 20px;
     }
     .our-cus .feedback .feedback-RHS .feedback-up .feedback-dp {
         width: 25%;
+        min-height: 200%;
     }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name {
+        width: 100%;
+        min-height: 8vh;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
+        font-size: 50%;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
+        font-size: 100%;
+    }
+
+
 
 
     .our-cus .feedback-footer {
