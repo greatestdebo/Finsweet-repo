@@ -1140,7 +1140,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
     .booking-section .picture-booking {
         width: 100%;
-        min-height: 50vh;
+        min-height: 45vh;
     }
 
 
@@ -1176,7 +1176,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         font-size: 110%;
     }
     .section2-class .section2-box .section2-LHS .we-are-taking .know-more {
-        width: 55%;
+        width: 60%;
     }
 
     .section2-class .section2-box .section2-RHS {
