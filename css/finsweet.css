@@ -90,7 +90,7 @@
 .booking-section {
     width: 70%;
     min-height: 88vh;
-    border: 1px solid black;
+    border: 1px solid #fff;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -102,7 +102,7 @@
     min-height: 88vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid #fff;
 }
 
 .booking-section .text-booking .booking-header {
@@ -292,7 +292,7 @@
 }
 
 .process-section .section3-container .section3-LHS {
-    border: 1px solid black;
+    border: 1px solid #fff;
     width: 60%;
     min-height: 100%;
     display: flex;
@@ -400,7 +400,7 @@
     min-height: 60vh;
     margin: 0 auto;
     margin-top: 30px;
-    border: 1px solid black ;
+    border: 1px solid #F2F2F2 ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -942,7 +942,7 @@
 .service-sec4 .service-sec4-LHS .social-logos {
     width: 40%;
     min-height: 4vh;
-    border: 1px solid 1E1B1B;
+    border: 1px solid #1E1B1B;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -1270,11 +1270,9 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
     .get-in-touch .GIT-upper .GIT-upper1 {
         width: 30%;
-        background-size: cover;
     }
     .get-in-touch .GIT-upper .GIT-upper2 {
         width: 30%;
-        min-height: 0%;
     }
     .get-in-touch .GIT-upper .GIT-upper2 h2 {
         margin: 0 0 0 0;
@@ -1287,7 +1285,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .get-in-touch .GIT-upper .GIT-upper3 {
         width: 40%;
-        background-size: cover;
     }
     .get-in-touch .GIT-lower {
         width: 90%;
