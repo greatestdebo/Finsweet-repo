@@ -90,7 +90,7 @@
 .booking-section {
     width: 70%;
     min-height: 88vh;
-    border: 1px solid #fff;
+    border: 1px solid black;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -102,7 +102,7 @@
     min-height: 88vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid #fff;
+    border: 1px solid red;
 }
 
 .booking-section .text-booking .booking-header {
@@ -292,15 +292,17 @@
 }
 
 .process-section .section3-container .section3-LHS {
-    border: 1px solid #fff;
+    border: 1px solid black;
     width: 60%;
     min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
 }
 
 .process-section .section3-container .section3-LHS h2 {
     font-size: 360%;
-    margin-top: 80px;
-    margin-right: 100px;
 }
 .process-section .section3-container .section3-LHS p {
     font-size: 110%;
@@ -441,6 +443,7 @@
     margin: 0 auto;
     margin-left: 70%;
     margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -474,7 +477,7 @@
 .get-in-touch .GIT-upper {
     width: 100%;
     min-height: 40vh;
-    border: 1px solid black;
+    border: 1px solid #E2E6E9;
     display: flex;
     flex-direction: row;
 }
@@ -1032,7 +1035,6 @@
 
 
 
-
 /* MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
 MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
 MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
@@ -1070,9 +1072,467 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
 
 
+/* TABLET VIEW   TABLET VIEW */
+@media (max-width: 769px) {
+    .header-section {
+        width: 90%;
+    }
+    .header-section .header-RHS {
+        width: 100%;
+    }
+    .header-section .header-RHS .menu-list li {
+        padding: 5px;
+        font-size: 75%;
+        align-items: center;
+    }
+    .header-section .header-RHS .RAS {
+        width: 35%;
+        flex-direction: row;
+    }
+    .header-section .header-RHS .RAS .RAS-logo {
+        width: 25%;
+    }
+    .header-section .header-RHS .RAS .RAS-logo img {
+        width: 100%;
+    }
+    .header-section .header-RHS .RAS .RAS-text h3 {
+        font-size: 60%;
+        padding-left: 0px;
+    }
+    .header-section .header-RHS .RAS .RAS-text p {
+        font-size: 70%;
+    }
 
-/* MOBILE VIEW */
-/* MOBILE VIEW */
+
+    .booking-section {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .booking-section .text-booking {
+        width: 30%;
+        min-height: 100%;
+        margin-bottom: 50px;
+    }
+    .booking-section .text-booking .booking-header h2 {
+        font-size: 75%;
+    }
+    .booking-section .text-booking .booking-header button {
+        width: 80%;
+    }
+    .booking-section .text-booking .booking-text .we-are-open h3 {
+        font-size: 80%;
+    }
+
+    .booking-section .picture-booking {
+        width: 100%;
+        min-height: 90vh;
+    }
+
+
+
+
+    .section2-class .section2-box {
+        width: 90%;
+        padding-top: 0px;
+    }
+    .section2-class .section2-box .section2-LHS {
+        width: 50%;
+        margin-top: 40px;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking {
+        width: 100%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking h2 {
+        font-size: 200%;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 {
+        width: 100%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box h5 {
+        font-size: 140%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box p {
+        font-size: 100%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .know-more {
+        width: 60%;
+    }
+
+    .section2-class .section2-box .section2-RHS {
+        width: 50%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .section2-class .section2-box .section2-RHS .get-a-quote {
+        width: 100%;
+        text-align: center;
+    }
+    .section2-class .section2-box .section2-RHS .get-a-quote h2 {
+        width: 100%;
+        padding: 10px 0 10px 0;
+        font-size: 200%;
+        align-items: center;
+        padding: 5px 50px 20px 50px;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-image-box {
+        width: 20%;
+    }
+    .section2-class .section2-box .section2-LHS .we-are-taking .LHS-2 .LHS2-text-box a {
+        font-size: 100%;
+    }
+    .section2-class .section2-box .section2-RHS .get-a-quote button {
+        width: 40%;
+    }
+
+
+
+
+    .process-section .section3-container {
+        flex-direction: row;
+        width: 90%;
+        align-items: center;
+        margin-top: 0;
+    }
+    .process-section .section3-container .section3-LHS {
+        width: 45%;
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .process-section .section3-container .section3-LHS h2 {
+        width: 80%;
+        font-size: 200%;
+        margin-top: 0;
+        padding: 10px;
+    }
+    .process-section .section3-container .section3-LHS p {
+        width: 80%;
+        font-size: 100%;
+        padding: 20px;
+    }
+    .process-section .section3-container .section3-LHS button {
+        width: 35%;
+        margin: 10px 0 0 20px;
+    }
+    .process-section .section3-container .section3-RHS {
+        width: 50%;
+        margin: 50px 0 0 50px;
+    }
+    .process-section .section3-container .section3-RHS .RHS3-text h4 {
+        font-size: 150%;
+        padding-top: 15px;
+    }
+    .process-section .section3-container .section3-RHS .RHS3-text p {
+        font-size: 90%;
+    }
+
+
+
+
+
+    .we-offer .offer-header {
+        width: 60%;
+        min-height: 70%;
+    }
+    .we-offer .offer-header h4 {
+        font-size: 100%;
+    }
+    .we-offer .offer-header h2 {
+        font-size: 230%;
+    }
+    .we-offer .offers {
+        width: 90%;
+    }
+    .we-offer .offers .offers-box {
+        width: 23%;
+    }
+    .we-offer .offers .offers-box-orange {
+        width: 23%;
+    }
+    .we-offer .offers .offers-box p {
+        font-size: 75%;
+    }
+    .we-offer .offers .offers-box-orange p {
+        font-size: 75%;
+    }
+    .we-offer .know-more-text {
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: end;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    .get-in-touch .GIT-upper .GIT-upper1 {
+        width: 30%;
+        background-size: cover;
+    }
+    .get-in-touch .GIT-upper .GIT-upper2 {
+        width: 30%;
+        min-height: 0%;
+    }
+    .get-in-touch .GIT-upper .GIT-upper2 h2 {
+        margin: 0 0 0 0;
+        font-size: 160%;
+        padding: 50px 20px 20px 20px;
+    }
+    .get-in-touch .GIT-upper .GIT-upper2 button {
+        width: 50%;
+        margin: 0 0 0 20px;
+    }
+    .get-in-touch .GIT-upper .GIT-upper3 {
+        width: 40%;
+        background-size: cover;
+    }
+    .get-in-touch .GIT-lower {
+        width: 90%;
+        flex-direction: row;
+    }
+    .get-in-touch .GIT-lower .GIT-number-figures {
+        width: 100%;
+    }
+    .get-in-touch .GIT-lower .GIT-number-figures h2 {
+        font-size: 150%;
+    }
+    .get-in-touch .GIT-lower .GIT-number-figures p {
+        font-size: 90%;
+    }
+
+
+
+
+
+    .brands .brands-text {
+        width: 60%;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .brands .brands-text h2 {
+        width: 100%;
+        font-size: 200%;
+    }
+    .brands .brand-box {
+        width: 90%;
+        margin-top: 5px;
+    }
+    .brands .brand-box .logoipsum {
+        width: 25%;
+    }
+    .brands .brand-box .logoipsum img {
+        width: 100%;
+    }
+
+
+
+
+
+    .our-cus .our-cus-header {
+        width: 50%;
+    }
+    .our-cus .our-cus-header h2 {
+        font-size: 180%;
+    }
+    .our-cus .feedback {
+        width: 90%;
+        flex-direction: row;
+        align-items: center;
+    }
+    .our-cus .feedback .feedback-LHS {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-dp {
+        width: 25%;
+        min-height: 200%;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name {
+        width: 100%;
+        min-height: 8vh;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
+        font-size: 100%;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
+        font-size: 100%;
+    }
+    .our-cus .feedback .feedback-LHS {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-dp {
+        width: 25%;
+        min-height: 200%;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name {
+        width: 100%;
+        min-height: 8vh;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
+        font-size: 100%;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
+        font-size: 100%;
+    }
+
+
+
+
+
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
+        font-size: 70%;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
+        font-size: 70%;
+    }
+    .our-cus .feedback .feedback-LHS .feedback-down p {
+        font-size: 80%;
+        padding-bottom: 10px;
+    }
+
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
+        font-size: 70%;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
+        font-size: 70%;
+    }
+    .our-cus .feedback .feedback-RHS .feedback-down p {
+        font-size: 80%;
+        padding-bottom: 10px;
+    }
+
+
+
+
+
+
+
+    .faq-home .faq-upper-text {
+        width: 60%;
+    }
+    .faq-home .faq-upper-text h2 {
+        font-size: 180%;
+        text-align: center;
+    }
+    .faq-home .faq-home-big {
+        width:60%;
+    }
+    .faq-home .faq-home-big .faq-home-big-upper h4 {
+        font-size: 100%;
+    }
+    .faq-home .faq-home-big .faq-home-big-lower p {
+        width: 75%;
+        font-size: 80%;
+    }
+    .faq-home .faq-home-small {
+        width: 60%;
+    }
+    .faq-home .faq-home-small h4 {
+        font-size: 100%;
+    }
+
+
+
+
+
+
+    .service-sec4 {
+        flex-direction: row;
+        min-height: 100%;
+
+    }
+    .service-sec4 .service-sec4-LHS {
+        margin:  0 0 20px 20px;
+        width: 80%;
+        min-height: 100%;
+    }
+    .service-sec4 .service-sec4-LHS .LHS-header {
+        width: 80%;
+        min-height: 10vh;
+    }
+    .service-sec4 .service-sec4-LHS .LHS-header h2 {
+        font-size: 200%;
+        width: 100%;
+    }
+    .service-sec4 .service-sec4-LHS .social-logos {
+        width: 50%;
+        margin: 50px 0 0 0;
+    }
+
+    .service-sec4 .service-sec4-RHS {
+        width: 90%;
+        min-height: 40%;
+        margin: 0 0 50px 20px
+    }
+    .service-sec4 .service-sec4-RHS p {
+        font-size: 100%;
+        padding: 5px 0 20px 0;
+    }
+    .service-sec4 .service-sec4-RHS h4 {
+        font-size: 80%;
+        padding-top: 10px;
+    }
+
+
+    .footer-container .footer-section {
+        width: 90%;
+        flex-direction: row;
+    }
+    .footer-container .footer-section .footer-MHS .menu-list {
+        flex-direction: row;
+    }
+    .footer-container .footer-section .footer-MHS .menu-list li {
+        padding: 5px;
+        font-size: 70%;
+    }
+    .footer-container .footer-section .footer-RHS {
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW */
+
+
 @media (max-width: 426px) {
     .header-section {
         flex-direction: column;
@@ -1112,6 +1572,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         font-size: 70%;
     }
     
+
     .booking-section {
         flex-direction: column-reverse;
         width: 90%;
@@ -1131,7 +1592,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     .booking-section .text-booking .booking-text .we-are-open h3 {
         font-size: 100%;
     }
-
 
     .booking-section .picture-booking {
         width: 100%;
@@ -1224,6 +1684,9 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     .process-section .section3-container .section3-LHS p {
         width: 100%;
     }
+    .process-section .section3-container .section3-LHS button {
+        width: 30%;
+    }
     .process-section .section3-container .section3-RHS {
         width: 100%;
         margin-top: 40px;
@@ -1248,7 +1711,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .we-offer .offer-header h4 {
         font-size: 100%;
-
     }
     .we-offer .offer-header h2 {
         font-size: 160%;
@@ -1275,6 +1737,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         margin: 0 auto;
         align-items: center;
         justify-content: end;
+        margin-bottom: 20px;
     }
 
 
@@ -1288,8 +1751,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .get-in-touch .GIT-upper .GIT-upper1 {
         width: 100%;
-        min-height: 36vh;
-        background-size: contain;
+        background-size: cover;
     }
     .get-in-touch .GIT-upper .GIT-upper2 {
         width: 100%;
@@ -1306,8 +1768,7 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .get-in-touch .GIT-upper .GIT-upper3 {
         width: 100%;
-        min-height: 36vh;
-        background-size: contain;
+        background-size: cover;
     }
     .get-in-touch .GIT-lower {
         width: 100%;
@@ -1345,6 +1806,9 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .brands .brand-box .logoipsum {
         width: 48%;
+    }
+    .brands .brand-box .logoipsum img {
+        width: 100%;
     }
 
 
@@ -1385,7 +1849,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
 
 
-
     .our-cus .feedback .feedback-RHS {
         width: 90%;
         margin-bottom: 20px;
@@ -1406,8 +1869,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
 
 
-
-
     .our-cus .feedback-footer {
         width: 50%;
     }
@@ -1416,37 +1877,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
 
 
-
-
-
-
-
-
-    .our-cus .our-cus-header h2 {
-
-    }
-    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
-        font-size: 70%;
-    }
-    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
-        font-size: 70%;
-    }
-    .our-cus .feedback .feedback-LHS .feedback-down p {
-        font-size: 80%;
-        padding-bottom: 10px;
-    }
-
-    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
-        font-size: 70%;
-    }
-    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
-        font-size: 70%;
-    }
-    .our-cus .feedback .feedback-RHS .feedback-down p {
-        font-size: 80%;
-        padding-bottom: 10px;
-    }
-    
 
 
 
@@ -1539,35 +1969,8 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 }
 
 
-/* MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
-MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
 
 
-/* TABLET VIEW
-TABLET VIEW */
-@media (max-width: 768px) {
 
-}
+
+
