@@ -421,20 +421,14 @@
     margin-bottom: 10px;
 }
 
-.we-offer .offers .offers-box-orange {
-    color: #fff;
-    background: #FF6433;
-    border: 1px solid #FF6433;
-    width: 23%;
-    min-height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 130%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.we-offer .offers .offers-box:hover {
+    background-color: #FF6433;
 }
+.we-offer .offers .offers-box:hover p {
+    color: #fff;
+}
+
+
 
 .we-offer .know-more-text {
     width: 15%;
@@ -641,7 +635,7 @@
 
 .our-cus .feedback .feedback-LHS .feedback-up {
     width: 80%;
-    min-height: 25%;
+    min-height: 10vh;
     border: 1px solid #fff;
     margin: 0 auto;
     display: flex;
@@ -650,7 +644,7 @@
 }
 
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-dp {
-    width: 15%;
+    width: 20%;
     min-height: 100%;
     border: 1px solid #fff;
 }
@@ -663,7 +657,7 @@
     width: 80%;
     min-height: 100%;
     margin-left: 10px;
-    border: 3px solid green;
+    border: 1px solid #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -673,6 +667,8 @@
 }
 .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
     font-size: 100%;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .our-cus .feedback .feedback-LHS .feedback-down {
@@ -682,7 +678,7 @@
     margin: 0 auto;
 }
 .our-cus .feedback .feedback-LHS .feedback-down p {
-    font-size: 130%;
+    font-size: 120%;
 }
 
 
@@ -707,7 +703,7 @@
 }
 
 .our-cus .feedback .feedback-RHS .feedback-up .feedback-dp {
-    width: 15%;
+    width: 20%;
     min-height: 100%;
     border: 1px solid #fff;
 }
@@ -720,7 +716,7 @@
     width: 80%;
     min-height: 100%;
     margin-left: 10px;
-    border: 1px solid green;
+    border: 1px solid #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -731,6 +727,7 @@
 .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
     font-size: 100%;
     color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .our-cus .feedback .feedback-RHS .feedback-down {
@@ -740,7 +737,7 @@
     margin: 0 auto;
 }
 .our-cus .feedback .feedback-RHS .feedback-down p {
-    font-size: 130%;
+    font-size: 120%;
 }
 
 
@@ -956,6 +953,9 @@
     margin-top: 100px;
     color: #fff;
 }
+.service-sec4 .service-sec4-RHS h4 {
+    color: lightgray;
+}
 .service-sec4 .service-sec4-RHS p {
     font-size: 120%;
     padding: 10px 0 30px 0;
@@ -1122,7 +1122,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     .booking-section .text-booking .booking-text .we-are-open h3 {
         font-size: 80%;
     }
-
     .booking-section .picture-booking {
         width: 100%;
         min-height: 90vh;
@@ -1159,7 +1158,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     .section2-class .section2-box .section2-LHS .we-are-taking .know-more {
         width: 60%;
     }
-
     .section2-class .section2-box .section2-RHS {
         width: 50%;
         margin-top: 40px;
@@ -1246,14 +1244,9 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
     .we-offer .offers .offers-box {
         width: 23%;
-    }
-    .we-offer .offers .offers-box-orange {
-        width: 23%;
+        min-height: 120px;
     }
     .we-offer .offers .offers-box p {
-        font-size: 75%;
-    }
-    .we-offer .offers .offers-box-orange p {
         font-size: 75%;
     }
     .we-offer .know-more-text {
@@ -1340,68 +1333,49 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         align-items: center;
     }
     .our-cus .feedback .feedback-LHS {
-        width: 50%;
-        margin-bottom: 20px;
+        width: 45%;
     }
     .our-cus .feedback .feedback-LHS .feedback-up .feedback-dp {
         width: 25%;
-        min-height: 200%;
     }
     .our-cus .feedback .feedback-LHS .feedback-up .feedback-name {
         width: 100%;
-        min-height: 8vh;
     }
     .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
-        font-size: 100%;
+        font-size: 140%;
     }
     .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
         font-size: 100%;
     }
-    .our-cus .feedback .feedback-LHS {
-        width: 50%;
-        margin-bottom: 20px;
+    .our-cus .feedback .feedback-LHS .feedback-down p {
+        font-size: 100%;
+    }
+    .our-cus .feedback .feedback-RHS {
+        width: 45%;
     }
     .our-cus .feedback .feedback-RHS .feedback-up .feedback-dp {
         width: 25%;
-        min-height: 200%;
     }
     .our-cus .feedback .feedback-RHS .feedback-up .feedback-name {
         width: 100%;
-        min-height: 8vh;
     }
     .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
-        font-size: 100%;
+        font-size: 140%;
     }
     .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
         font-size: 100%;
-    }
-
-
-
-
-
-    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
-        font-size: 70%;
-    }
-    .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
-        font-size: 70%;
-    }
-    .our-cus .feedback .feedback-LHS .feedback-down p {
-        font-size: 80%;
-        padding-bottom: 10px;
-    }
-
-    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
-        font-size: 70%;
-    }
-    .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
-        font-size: 70%;
     }
     .our-cus .feedback .feedback-RHS .feedback-down p {
-        font-size: 80%;
-        padding-bottom: 10px;
+        font-size: 100%;
     }
 
+    .our-cus .feedback-footer {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 0 0;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
 
 
@@ -1459,7 +1433,6 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
         width: 50%;
         margin: 50px 0 0 0;
     }
-
     .service-sec4 .service-sec4-RHS {
         width: 90%;
         min-height: 40%;
@@ -1475,23 +1448,26 @@ MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
     }
 
 
+
+
+
     .footer-container .footer-section {
         width: 90%;
         flex-direction: row;
+    }
+    .footer-container .footer-section .footer-MHS {
+        margin: 0 30px 0 30px;
     }
     .footer-container .footer-section .footer-MHS .menu-list {
         flex-direction: row;
     }
     .footer-container .footer-section .footer-MHS .menu-list li {
-        padding: 5px;
+        margin-right: 20px;
         font-size: 70%;
     }
     .footer-container .footer-section .footer-RHS {
         width: 100%;
     }
-
-
-
 }
 
 
@@ -1839,12 +1815,11 @@ MOBILE VIEW      MOBILE VIEW */
         min-height: 8vh;
     }
     .our-cus .feedback .feedback-LHS .feedback-up .feedback-name h4 {
-        font-size: 100%;
+        font-size: 120%;
     }
     .our-cus .feedback .feedback-LHS .feedback-up .feedback-name p {
         font-size: 100%;
     }
-
 
     .our-cus .feedback .feedback-RHS {
         width: 90%;
@@ -1859,15 +1834,21 @@ MOBILE VIEW      MOBILE VIEW */
         min-height: 8vh;
     }
     .our-cus .feedback .feedback-RHS .feedback-up .feedback-name h4 {
-        font-size: 50%;
+        font-size: 120%;
     }
     .our-cus .feedback .feedback-RHS .feedback-up .feedback-name p {
         font-size: 100%;
     }
 
 
+
+
     .our-cus .feedback-footer {
-        width: 50%;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 0 0;
+        align-items: center;
+        margin-bottom: 20px;
     }
     .our-cus .feedback-footer .page-lines {
         display: none;
