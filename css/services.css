@@ -29,14 +29,6 @@
     flex-direction: row;
 }
 
-.header-section .header-RHS .navigation-menu {
-    width: 65%;
-    min-height: 8vh;
-    border: 1px solid #fff;
-    display: flex;
-    flex-direction: row;
-}
-
 .header-section .header-RHS .menu-list {
     width: 65%;
     min-height: 8vh;
@@ -66,6 +58,9 @@
     align-items: center;
     justify-content: center;
 }
+.header-section .header-RHS .grey-line img {
+    min-height: 100%;
+}
 
 .header-section .header-RHS .RAS {
     width: 30%;
@@ -74,7 +69,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+}
+
+.header-section .header-RHS .RAS .RAS-logo {
+    border: 1px solid #fff;
+    width: 25%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-section .header-RHS .RAS .RAS-text {
+    border: 1px solid #fff;
 }
 
 
@@ -232,8 +237,8 @@
 }
 
 .service-sec2 .sec2-holder .sec2-RHS .RHS2-icons {
-    width: 240px;
-    height: 215px;
+    width: 48%;
+    height: 31%;
     background: #fff;
     border: 1px solid #F5F5F5;
     display: flex;
@@ -241,27 +246,16 @@
     align-items: center;
     justify-content: center;
 }
+.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons:hover {
+    background-color: orangered;
+}
+.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons:hover p {
+    color: #fff;
+}
 .service-sec2 .sec2-holder .sec2-RHS .RHS2-icons p {
     font-size: 130%;
     margin-top: 10px;
 }
-
-.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons-orange {
-    width: 240px;
-    height: 215px;
-    background: orangered;
-    border: 1px solid #F5F5F5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.service-sec2 .sec2-holder .sec2-RHS .RHS2-icons-orange p {
-    font-size: 130%;
-    color: #fff;
-    margin-top: 10px;
-}
-
 
 
 
@@ -309,17 +303,20 @@
 .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text {
     display: flex;
     flex-direction: row;
+    padding: 20px 0 20px 0;
 }
 
 .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-tick {
     width: 55px;
-    padding-top: 50px;
+    display: flex;
+    align-items: center;
 }
 .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-tick img {
     width: 100%;
 }
 .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-text {
-    padding-top: 45px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -337,24 +334,19 @@
     min-height: 60vh;
     border: 1px solid #fff;
 }
-
 .service-sec3 .sec3-upperbox .sec3-upperbox-RHS .sec3-upperbox-image1 img {
     width: 100%;
     min-height: 100%;
 }
-
 .service-sec3 .sec3-upperbox .sec3-upperbox-RHS .sec3-upperbox-image2 {
     width: 49%;
     min-height: 60vh;
     border: 1px solid #fff;
 }
-
 .service-sec3 .sec3-upperbox .sec3-upperbox-RHS .sec3-upperbox-image2 img {
     width: 100%;
     min-height: 100%;
 }
-
-
 
 
 .service-sec3 .sec3-lowerbox {
@@ -419,7 +411,7 @@
 
 
 
-/* SECTION 4 */
+/* FOOTER-SECTION */
 .service-sec4 {
     width: 100%;
     min-height: 60vh;
@@ -439,60 +431,13 @@
     margin-right: 150px;
 }
 
-.service-sec4 .service-sec4-LHS h2 {
-    font-size: 250%;
-    color: #fff;
-}
-
-.service-sec4 .service-sec4-LHS .social-logos {
-    width: 40%;
-    min-height: 4vh;
-    border: 1px solid 1E1B1B;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-.service-sec4 .service-sec4-RHS {
-    width: 25%;
-    min-height: 30vh;
-    border: 1px solid #1E1B1B;
-    margin-top: 100px;
-    color: #fff;
-}
-.service-sec4 .service-sec4-RHS p {
-    font-size: 120%;
-    padding: 10px 0 30px 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-
-
-
-/* FOOTER SECTION */
-.service-sec4 {
+.service-sec4 .service-sec4-LHS .LHS-header {
     width: 100%;
-    min-height: 60vh;
-    background: #1E1B1B;
-    border: 1px solid #1E1B1B;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-}
-
-.service-sec4 .service-sec4-LHS {
-    width: 25%;
     min-height: 25vh;
     border: 1px solid #1E1B1B;
-    margin-top: 100px;
-    margin-left: 280px;
-    margin-right: 150px;
 }
 
-.service-sec4 .service-sec4-LHS h2 {
+.service-sec4 .service-sec4-LHS .LHS-header h2 {
     font-size: 250%;
     color: #fff;
 }
@@ -500,7 +445,7 @@
 .service-sec4 .service-sec4-LHS .social-logos {
     width: 40%;
     min-height: 4vh;
-    border: 1px solid 1E1B1B;
+    border: 1px solid #1E1B1B;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -513,6 +458,9 @@
     border: 1px solid #1E1B1B;
     margin-top: 100px;
     color: #fff;
+}
+.service-sec4 .service-sec4-RHS h4 {
+    color: lightgray;
 }
 .service-sec4 .service-sec4-RHS p {
     font-size: 120%;
@@ -560,28 +508,26 @@
     width: 52%;
     min-height: 8vh;
     border: 1px solid black;
-    color: #fff;
     display: flex;
     flex-direction: row;
 }
 
-
-.footer-container .footer-section .footer-MHS .black-footer {
+.footer-container .footer-section .footer-MHS .menu-list {
     width: 75%;
     min-height: 8vh;
-    border: 3px solid black;
+    border: 1px solid black;
+    color: #fff;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.footer-container .footer-section .footer-MHS .black-footer a {
+.footer-container .footer-section .footer-MHS .menu-list a{
     text-decoration: none;
     font-size: 120%;
     color: #fff;
 }
-
 
 .footer-container .footer-section .footer-RHS{
     width: 18%;
@@ -590,4 +536,546 @@
     color: #fff;
     display: flex;
     align-items: center;
+}
+
+
+/* MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION
+MEDIA QUERY SECTION    MEDIA QUERY SECTION   MEDIA QUERY SECTION */
+
+
+/* TABLET VIEW   TABLET VIEW */
+@media (max-width: 769px) {
+    .header-section {
+        width: 90%;
+    }
+
+    .header-section .header-RHS {
+        width: 100%;
+    }
+    .header-section .header-RHS .menu-list li {
+        padding: 5px;
+        font-size: 75%;
+        align-items: center;
+    }
+    .header-section .header-RHS .RAS {
+        width: 35%;
+        flex-direction: row;
+    }
+    .header-section .header-RHS .RAS .RAS-logo {
+        width: 25%;
+    }
+    .header-section .header-RHS .RAS .RAS-logo img {
+        width: 100%;
+    }
+    .header-section .header-RHS .RAS .RAS-text h3 {
+        font-size: 60%;
+        padding-left: 0px;
+    }
+    .header-section .header-RHS .RAS .RAS-text p {
+        font-size: 70%;
+    }
+
+
+
+
+
+
+
+
+    .service-sec1 {
+        width: 100%;
+        min-height: 70vh;
+    }
+    
+    .service-sec1 .sec1-holder {
+        width: 90%;
+        min-height: 150px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .service-sec1 .sec1-holder .service-car {
+        width: 50%;
+        background-size: cover;
+    }
+    .service-sec1 .sec1-holder .black-box {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .service-sec1 .sec1-holder .black-box h2 {
+        font-size: 240%;
+        padding: 0 0 0 20px;
+    }
+    .service-sec1 .sec1-holder .black-box p {
+        font-size: 100%;
+        padding: 0 0 0 20px;
+    }
+    .service-sec1 .sec1-holder .black-box button {
+        width: 40%;
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+    .service-sec2 {
+        width: 100%;    
+    }
+    .service-sec2 .sec2-holder {
+        width: 90%;
+        min-height: 50vh;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .service-sec2 .sec2-holder .sec2-LHS {
+        width: 49%;
+    }
+    .service-sec2 .sec2-holder .sec2-LHS .LHS-pic {
+        margin-top: 20px;
+    }
+    .service-sec2 .sec2-holder .sec2-LHS .LHS-text {
+        margin-top: 20px;
+    }
+    .service-sec2 .sec2-holder .sec2-LHS .LHS-text h2 {
+        font-size: 200%;
+    }
+    .service-sec2 .sec2-holder .sec2-LHS .LHS-text p {
+        font-size: 100%;
+        padding-top: 10px;
+    }
+
+    .service-sec2 .sec2-holder .sec2-RHS {
+        width: 49%;
+    }
+    .service-sec2 .sec2-holder .sec2-RHS .RHS2-icons {
+        width: 48%;
+    }
+    .service-sec2 .sec2-holder .sec2-RHS .RHS2-icons p {
+        font-size: 100%;
+    }
+
+
+
+
+    .service-sec3 {
+        width: 100%;
+        min-height: 150vh;
+    }
+    
+    .service-sec3 .sec3-upperbox {
+        width: 90%;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS {
+        width: 40%;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left h2 {
+        font-size: 220%;
+        padding: 0 0 0 0;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left p {
+        font-size: 110%;
+        padding: 0 10px 0 10px;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-tick {
+        width: 15%;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-tick img {
+        width: 100%;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-text {
+        display: flex;
+        align-items: center;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-RHS {
+        width: 60%;
+    }
+
+    .service-sec3 .sec3-lowerbox {
+        width: 90%;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-LHS {
+        width: 60%;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-RHS {
+        width: 40%;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-RHS .sec3-lowerbox-text h2 {
+        font-size: 200%;
+        padding: 0 0 0 20px;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-RHS .sec3-lowerbox-text p {
+        font-size: 110%;
+        padding: 20px 0 0 20px;
+    }
+
+
+
+
+    .service-sec4 {
+        flex-direction: row;
+        min-height: 100%;
+
+    }
+    .service-sec4 .service-sec4-LHS {
+        margin:  0 0 20px 20px;
+        width: 80%;
+        min-height: 100%;
+    }
+    .service-sec4 .service-sec4-LHS .LHS-header {
+        width: 80%;
+        min-height: 10vh;
+    }
+    .service-sec4 .service-sec4-LHS .LHS-header h2 {
+        font-size: 200%;
+        width: 100%;
+    }
+    .service-sec4 .service-sec4-LHS .social-logos {
+        width: 50%;
+        margin: 50px 0 0 0;
+    }
+    .service-sec4 .service-sec4-RHS {
+        width: 90%;
+        min-height: 40%;
+        margin: 0 0 50px 20px
+    }
+    .service-sec4 .service-sec4-RHS p {
+        font-size: 100%;
+        padding: 5px 0 20px 0;
+    }
+    .service-sec4 .service-sec4-RHS h4 {
+        font-size: 80%;
+        padding-top: 10px;
+    }
+
+
+
+
+
+    .footer-container .footer-section {
+        width: 90%;
+        flex-direction: row;
+    }
+    .footer-container .footer-section .footer-MHS {
+        margin: 0 30px 0 30px;
+    }
+    .footer-container .footer-section .footer-MHS .menu-list {
+        flex-direction: row;
+    }
+    .footer-container .footer-section .footer-MHS .menu-list li {
+        margin-right: 20px;
+        font-size: 70%;
+    }
+    .footer-container .footer-section .footer-RHS {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW
+MOBILE VIEW      MOBILE VIEW */
+
+
+@media (max-width: 426px) {
+    .header-section {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .header-section .header-RHS {
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-section .header-RHS .menu-list {
+        flex-direction: column;
+    }
+    .header-section .header-RHS .menu-list li {
+        padding: 5px;
+        font-size: 75%;
+        align-self: flex-start;
+    }
+    .header-section .header-RHS .grey-line {
+        display: none;
+    }
+    .header-section .header-RHS .RAS {
+        width: 35%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .header-section .header-RHS .RAS .RAS-logo {
+        width: 25%;
+    }
+    .header-section .header-RHS .RAS .RAS-logo img {
+        width: 100%;
+    }
+    .header-section .header-RHS .RAS .RAS-text h3 {
+        font-size: 60%;
+        padding-left: 0px;
+    }
+    .header-section .header-RHS .RAS .RAS-text p {
+        font-size: 70%;
+    }
+
+
+
+
+    .service-sec1 {
+        width: 100%;
+    }
+    .service-sec1 .sec1-holder {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .service-sec1 .sec1-holder .service-car {
+        width: 100%;
+        background-size: cover;
+    }
+    .service-sec1 .sec1-holder .service-car img {
+        height: 100%;
+    }
+    .service-sec1 .sec1-holder .black-box {
+        width: 100%;
+    }
+    .service-sec1 .sec1-holder .black-box h2 {
+        width: 100%;
+        font-size: 200%;
+        padding: 20px 0 0 20px;
+    }
+    .service-sec1 .sec1-holder .black-box p {
+        width: 100%;
+        font-size: 100%;
+        padding: 10px 20px 10px 20px;
+    }
+    .service-sec1 .sec1-holder .black-box button {
+        width: 50%;
+        margin: 20px 0 0 20px;
+    }
+
+
+
+
+
+
+
+
+    .service-sec2 {
+        width: 100%;    
+    }
+    .service-sec2 .sec2-holder {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .service-sec2 .sec2-holder .sec2-LHS {
+        width: 100%;
+    }
+    .service-sec2 .sec2-holder .sec2-LHS .LHS-text h2 {
+        font-size: 200%;
+    }
+    .service-sec2 .sec2-holder .sec2-LHS .LHS-text p {
+        font-size: 120%;
+    }
+
+    .service-sec2 .sec2-holder .sec2-RHS {
+        width: 100%;
+        min-height: 75vh;
+        margin-top: 30px;
+        border: 1px solid black;
+    }
+    .service-sec2 .sec2-holder .sec2-RHS .RHS2-icons {
+        width: 48%;
+        min-height: 150px;
+    }
+
+
+
+
+
+
+    .service-sec3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .service-sec3 .sec3-upperbox {
+        width: 100%;
+        flex-direction: column;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS {
+        width: 100%;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left h2 {
+        font-size: 200%;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text {
+        width: 100%;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-tick {
+        width: 8%;
+
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-text {
+        width: 100%;
+
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left .tick-and-text .sec3-text  {
+        width: 100%;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-LHS .sec3-upperbox-left p {
+        font-size: 120%;
+        padding:  0 0 0 10px;
+    }
+    .service-sec3 .sec3-upperbox .sec3-upperbox-RHS {
+        width: 100%;
+    }
+
+
+    .service-sec3 .sec3-lowerbox {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-LHS {
+        width: 100%;
+        margin-top: 50px;
+        padding:  0 0 0 0;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-RHS {
+        width: 100%;
+        min-height: 100%;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-RHS .sec3-lowerbox-text h2 {
+        font-size: 200%;
+        padding: 0 0 20px 0;
+    }
+    .service-sec3 .sec3-lowerbox .sec3-lowerbox-RHS .sec3-lowerbox-text p {
+        font-size: 120%;
+        padding: 0 0 0 0;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .service-sec4 {
+        flex-direction: column;
+        min-height: 100%;
+
+    }
+    .service-sec4 .service-sec4-LHS {
+        margin:  0 0 20px 20px;
+        width: 80%;
+        min-height: 100%;
+    }
+    .service-sec4 .service-sec4-LHS .LHS-header {
+        width: 80%;
+        min-height: 10vh;
+    }
+    .service-sec4 .service-sec4-LHS .LHS-header h2 {
+        font-size: 200%;
+        width: 100%;
+    }
+    .service-sec4 .service-sec4-LHS .social-logos {
+        width: 50%;
+        margin: 50px 0 0 0;
+    }
+
+    .service-sec4 .service-sec4-RHS {
+        width: 90%;
+        min-height: 40%;
+        margin: 0 0 50px 20px
+    }
+    .service-sec4 .service-sec4-RHS p {
+        font-size: 100%;
+        padding: 5px 0 20px 0;
+    }
+    .service-sec4 .service-sec4-RHS h4 {
+        font-size: 80%;
+        padding-top: 10px;
+    }
+
+
+
+
+    .footer-container .footer-section {
+        width: 90%;
+        flex-direction: column;
+    }
+    .footer-container .footer-section .footer-MHS .menu-list {
+        flex-direction: column;
+    }
+    .footer-container .footer-section .footer-MHS .menu-list li {
+        padding: 5px;
+        font-size: 70%;
+        align-self: flex-start;
+    }
+    .footer-container .footer-section .footer-RHS {
+        width: 100%;
+    }
 }
