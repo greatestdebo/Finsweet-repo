@@ -275,7 +275,7 @@
 
 /* SECTION 3  PROCESS SECTION */
 .process-section {
-    width: 100%;
+    width: 98%;
     min-height: 80vh;
     margin: 0 auto;
 }
@@ -1932,6 +1932,9 @@ MOBILE VIEW      MOBILE VIEW */
     .footer-container .footer-section {
         width: 90%;
         flex-direction: column;
+    }
+    .footer-container .footer-section .footer-MHS {
+        margin-left: 0;
     }
     .footer-container .footer-section .footer-MHS .menu-list {
         flex-direction: column;

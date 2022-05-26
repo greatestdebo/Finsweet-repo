@@ -1066,6 +1066,9 @@ MOBILE VIEW      MOBILE VIEW */
         width: 90%;
         flex-direction: column;
     }
+    .footer-container .footer-section .footer-MHS {
+        margin-left: 0;
+    }
     .footer-container .footer-section .footer-MHS .menu-list {
         flex-direction: column;
     }
